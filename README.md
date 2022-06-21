@@ -9,20 +9,20 @@ and get it looking as close to the design as possible.
 <h2>Requirements</h2>
 
 The users should be able to:<br>
-1. View the optimal layout depending on their device's screen size<br>
+<!-- 1. View the optimal layout depending on their device's screen size<br> -->
 2. See hover states for interactive elements<br>
 
 <h2>Template</h2>
 <figcaption>The image attached is the desktop active template </figcaption><br>
 <br>
-<img width="1440" alt="Desktop - Active" src="C:\Users\USER\Desktop\Amalitech\HTML CSS\Tombones original\img\imgs.png">
+<img width="1440" alt="Desktop - Active" src="https://github.com/FTOkley/Trombones/blob/main/img/imgs.png">
 <br>
 <br>
 
 <h2> Link To Page </h2>
 
-  1. Live URL: <a href=""  target="_blank">Equelizer Landing Page</a><br>
-  2. Solution: <a href="https://github.com/FTOkley/trombos/" target="_blank">Solution Manual</a>
+  1. Live URL: <a href="https://ftokley.github.io/Trombones/"  target="_blank">Product Landing Page</a><br>
+  2. Solution: <a href="https://github.com/FTOkley/trombones/" target="_blank">Solution Manual</a>
   
  <h2> Built With </h2>
  1 HTML5 markup<br>
