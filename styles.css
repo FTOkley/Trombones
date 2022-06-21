@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eee;
+}
+header {
+  background-color: #eee;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  place-items: center;
+  justify-content: space-between;
+  position: fixed;
+  padding: 10px 0px;
+  top: 0;
+}
+#nav-bar {
+  margin: 0;
+}
+.nav-link {
+  padding: 0px 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+.nav-link:hover{
+    transform: scale(0.54);
+    background-color: rgb(127, 255, 217);
+}
+
+main {
+  display: grid;
+  margin: 0;
+  place-items: center;
+}
+h1 {
+  margin-top: 2rem;
+  padding: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+form input {
+  margin: 0.5rem;
+}
+#email {
+  width: 20rem;
+  height: 2rem;
+}
+#submit {
+  /* margin-left: 2rem; */
+  width: 10rem;
+  height: 2rem;
+  border: none;
+  background-color: rgb(234, 189, 8);
+  box-shadow: 1px 1px 1px black;
+  cursor: pointer;
+  margin: 0rem 2rem 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.features {
+  display: flex;
+  word-wrap: normal;
+}
+span,
+i {
+  flex: 20%;
+  margin: auto;
+  
+}
+
+.fa {
+  color: rgb(239, 129, 4);
+  padding: 30px;
+}
+.details {
+  flex: 80%;
+  margin: auto;
+  /* border: 1px solid blue; */
+}
+
+#video {
+  margin: 2rem auto;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 70%;
+}
+
+#valve,
+#trombone,
+#bass {
+  display: flexbox;
+  /* padding: 1rem 2rem; */
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+}
+#valve h3,
+#trombone h3,
+#bass h3 {
+  padding: 2rem;
+}
+#valve p,
+#trombone p,
+#bass p {
+  padding: 0rem 3rem;
+  line-height: 2rem;
+}
+
+button {
+  background-color: rgb(255, 213, 0);
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(233, 131, 7);
+  padding: 0.7rem 1.2rem;
+}
+strong {
+  line-height: 3rem;
+  font-size: larger;
+}
+h3 {
+  background-color: rgb(166, 168, 168);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+footer {
+  width: 70%;
+  display: flexbox;
+  float: right;
+  background-color: rgb(186, 186, 181);
+  margin-top: 2rem;
+  padding: 4rem 1rem;
+}
+
+@media screen and (max-width: 420px) {
+  #pricing {
+    display: flexbox;
+    width: 100%;
+  }
+}
